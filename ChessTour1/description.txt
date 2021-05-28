@@ -1,0 +1,102 @@
+
+* Project file: description.txt
+* Project folder: FinalProject
+* Description: @ description.txt
+* Contains main function
+* Works on localhost:8088 local web server
+* For: CIS-228 - Fall Semester - Final Project
+* Last edited: 12/08/2020 by S.Jovanovic
+
+
+
+This web application is dediceted to chess.
+The purpose is to help user find Chess Clubs and Tournaments depending 
+on user's location. User can look for Tournaments and Clubs that can be shown
+listed by distance, date of the tournament or tournament prize 
+and shown on map.
+
+    - Data about Chess Clubs and Tournaments is stored in separated JSON files:
+        clubs.json
+        tournaments.json
+      I used real data that I searched about clubs and tournaments
+      mostly in Philadelphia and surroundings. Since most of scheduled tournaments
+      that are scheduled for 2020 and 2021 are either canceled or moved to online format, 
+      i used data mostly from 2019, projecting them for 2021.
+      Anyway, this is only testing data and real data
+      can easily be inserted once it becomes available.
+      
+    
+    - Two custom Classes: ChessClub and ChessTournament are created to store
+      data that will be fetched from JSON.
+      Both have similar properties such are name, address,
+      latitute, longitude, web page,
+      and few that are different such is date that tournament has and Club doesnt, 
+      or prize and tournament fee. 
+      Both Classes have regular methods to set local properties and
+      main method to locate users position using navigator API
+      and calculate distance using Haversain formula, local properties lat and lon
+      and users position coords(lat and lon).
+      Tournament class also has a method to calculate time difference between 
+      begining of the tournament and current date.
+
+
+    When the page loads main function is called. Main function is located in index.mjs.
+    In main function following 5 functions are called:
+
+        - Function showMap() is button event function 
+             uses Lefleat API to display map with user location using navigator API.
+
+        - Functions addClub() and addTournament() are also button event functions
+            that are used to create html form elements used for user's input 
+            to capture data about Clubs and Tournaments that user wants to add to the main list
+            of Clubs and Tournaments. 
+            Both functions use Local Storage to set and save data. This two functions
+            are kept in separated files: addClub.mjs and addTournaments.mjs.
+
+        - Functions fetchClubs1() and fetchTournaments() are immidiately called from main
+            when page loads. Both Functions use fetch() API to fetch Chess Club 
+            and Chess Tournaments JSON data from local folder.
+
+            - in both fetchClub() and fetchTournament()
+            first then() method is used to transfer json array to object array of clubs
+            and tournaments using map() Array Method. It also adds saved data from Local Storage and
+            returns unified Array of Objects that combines fetched data and data from Local Storage.
+
+            - in second then() method in fetchTournament() 3 functions are called:
+              - sortTourByDate()
+              - sortTourByDistance()
+              - sortTourByPrize
+              They are kept in separeted files:sortTourByDate.mjs,sortTourByDistance.mjs,sortTourByPrize
+                Each of these functions are button events displayed on the screen when page loads
+                that take chessTournament array returned from first then()
+                  and use sort() Array method to sort Array by property values of ChessTournament instancies:
+                  date, distance and prize and call uploadDom() function located in buttonUploadDom.mjs to display
+                  the list of 10 sorted button elements.Also new button 'next' is attached
+                  that is used to display next page of the list (10 - 20).
+                  Each button represents an event for the 
+                  function loadDOM() that is kept in separated file loadDOM.mjs.
+                    - loadDOM uploads the box on the page displaying info for every ChessTournament instancies
+                     by using DOM methods and uses google map methods to set and display the location of every instance on
+                     the google map.
+                     
+
+           - in second then() method in fetchClubs1()
+            function mainChessClubs() is called. This function is located in chessClubs.mjs file.
+              - mainChessClubs() takes array chessClubs as argument returned from first then and 
+              uses sort() Array method to sort array by distance, property of ChessClub instance
+              and displays list of 10 button elements representing instancies of ChessClub class.
+              It also adds next button that is used to display list from 10 to 20.
+              Each button is event listener for function loadClubDOM(),located in loadClubDOM.mjs file.
+                  This function uploads the box on the page displaying info for every ChessClub instancies
+                  by using DOM methods. 
+
+Note:
+ I have limited user to add up to 3 clubs or tournaments. I have initially set json files for 17 clubs
+and 17 tournaments. So total can be max 20 displayed in two different pages in the box on the screen for both,
+Chess Clubs and Chess Tournaments. If the user adds forth club or tournament, the last one will replace the 
+first one that was added.
+This can easily be changed to be exteneded but at this point i didn't think that it was neccessery to have more
+than 20 Clubs and 20 Tournaments.
+I used both Google Map API  and Lefleat API. Lefleat map is used to display user's location. Google map is used
+to display locations of clubs and tournaments. Google map Key was added manualy in index.html. 
+

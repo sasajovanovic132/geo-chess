@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEf09kdrxEAgyseZAc-_jTv7fLjRZ0Hd0" defer></script>
+
+
+    <script src="leaflet/leaflet.js"></script>
+    <script src="index1.mjs" type="module" charset="utf-8"></script>
+    <link href="styles1.css" rel="stylesheet">
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/skeleton.css" />
+
+    <title>Chess Tour</title>
+
+
+<body>
+    <h1> ChessTourGeo </h1>
+
+    <div class="grid">
+        <div id="map" class="box map"></div>
+        <div class="box tourBox">
+            <div id="tour-buttons">
+                <button class='tour' id='showClubList'>Chess Clubs Near By</button>
+                <button class='tour' id='SortedByDistanceList'> Tournaments by Distance</button>
+                <button class='tour' id='showTournamentList'>Tournaments by Date </button>
+                <button class='tour' id='SortedByPrizeList'>Tournaments By Prize</button>
+            </div>
+        </div>
+        <div id="map1" class="box map1"></div>
+        <button id="userPosition" class="box map1Button"> Show My Location</button>
+        <div id='addButtons'>
+            <button class=' addBut' id='addClub'>Add Club</button>
+            <button class=' addBut' id='addTour'> Add Tournament</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

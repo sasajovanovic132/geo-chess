@@ -1,0 +1,162 @@
+
+h1 {
+    text-align:center;
+}
+.grid {
+    background-color:lightblue;
+    border: 2px black solid;
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template: repeat(16, 1fr) / repeat(16, 1fr);
+    grid-gap: 10px;
+       
+}
+
+.map { 
+  display: grid;
+grid-template: repeat(11, 1fr) / repeat(1, 1fr);
+grid-gap: 3px; 
+justify-items: center;
+justify-content: center;
+padding-top: 15px;
+grid-row: 2/ span 11;
+grid-column: 9/ span 6;
+text-align: left;
+font-family: fantasy;
+height: 450px;
+}
+.input{
+  width: 300px;
+}
+
+
+
+
+#addButtons{
+  grid-row: 15/ span 1;
+grid-column: 9/ span 6;
+ padding-left: 4px;
+}
+.addBut{
+  width: 49%;
+ 
+  color:black;
+  background-color: white; 
+  border: 2px black solid;
+}
+
+
+.buttonClubs {
+  color:black;
+  background-color: white; 
+  height: 27px;
+  width: 400px;
+  border: 2px black solid;
+}
+#nextChess{
+  height: 25px;
+  width: 100px;
+  
+  
+}
+.buttonTournaments {
+  color:black;
+  background-color:white; 
+  height: 27px;
+  width: 400px;
+  border: 2px black solid;
+}
+
+.map1 {
+    grid-row: 9/ span 6;
+grid-column: 3/ span 5;
+
+}
+.map1Button{
+  grid-row: 15/ span 1;
+grid-column: 3/ span 5;
+background-color: white;
+}
+
+.tourBox {
+ 
+   color:black;
+  background-color: white;
+  
+  
+grid-row: 2/ span 7;
+grid-column: 3/ span 5;
+}
+
+
+.box {
+    background-color:lightgray;
+    color: black;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+
+#tour-buttons {
+     display: grid;
+grid-template: repeat(5, 1fr) / repeat(1, 1fr);
+grid-gap: 10px;
+padding-top: 15px; 
+justify-items: center;
+    
+        
+}
+
+.tour{
+  width: 300px;
+  background-color: white;
+  border: 2px black solid;
+ 
+}
+#userPosition{
+background-color: white;
+}
+
+form {
+  display: grid;
+  grid-template: repeat(10, 1fr) / repeat(1, 1fr);
+  grid-gap: 5px; 
+  justify-items: center;
+  justify-content: center;
+  padding-top: 15px;
+
+}
+
+.input{
+  border: 2px black solid;
+  width: 400px;
+  height: 27px;
+}
+.input1{
+  border: 2px black solid;
+  width: 400px;
+  height: 25px;
+}
+
+  #tourForm{
+      display: grid;
+  
+  grid-gap: 0px; 
+  grid-auto-rows: auto;
+  row-gap: 0px;
+  height: calc(100vh - 200px);
+  padding-top: 0px;
+
+  }
+
+#Submit{
+  color: black;
+  border: 1px black solid;
+  background-color: white;
+  height: 30px;
+}
+li {
+    list-style-type: none;
+    padding-left: 10px;
+}
