@@ -41,6 +41,7 @@ function main() {
 
         let addTournamentButton = document.getElementById('addTour'); // 'Add Club' button on the page
         addTournamentButton.addEventListener('click', addTournaments);
+        navigator.geolocation.getCurrentPosition(showPosition, noGeo);
 
     });
 }//end main
@@ -86,8 +87,7 @@ function showPosition(position) {
 
     //lefleat
     //map1.panTo([lat, lon]); // to reset the map based on users position
-    //centerMarker.setLatLng([lat, lon]);
-
+    //centerMarker.setLatLng([lat, lon])
 }
 function noGeo(e) {
     console.error(e);
