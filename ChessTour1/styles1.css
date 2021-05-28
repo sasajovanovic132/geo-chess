@@ -1,9 +1,12 @@
 
 h1 {
     text-align:center;
+    
 }
+
 .grid {
-    background-color:lightblue;
+    background-image: url('AdobeStock_313453946.jpeg');
+    background-size:contain;
     border: 2px black solid;
     width: 1200px;
     height: 600px;
