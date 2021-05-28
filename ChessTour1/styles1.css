@@ -9,11 +9,12 @@ h1 {
     
 }
 
+
 .grid {
     background-image: url('AdobeStock_313453946.jpeg');
     background-size:contain;
     border: 2px black solid;
-    width: 1200px;
+    width: 1170px;
     height: 600px;
     display: grid;
     grid-template: repeat(16, 1fr) / repeat(16, 1fr);
@@ -45,15 +46,17 @@ height: 450px;
   grid-row: 15/ span 1;
 grid-column: 9/ span 6;
  padding-left: 4px;
+ border-radius: 10px;
+ 
 }
 .addBut{
   width: 49%;
- 
+  border-radius: 12px;
   color:black;
   background-color: white; 
   border: 2px black solid;
+  border-radius: 10px;
 }
-
 
 .buttonClubs {
   color:black;
@@ -61,6 +64,7 @@ grid-column: 9/ span 6;
   height: 27px;
   width: 400px;
   border: 2px black solid;
+  border-radius: 10px;
 }
 #nextChess{
   height: 25px;
@@ -74,6 +78,7 @@ grid-column: 9/ span 6;
   height: 27px;
   width: 400px;
   border: 2px black solid;
+  border-radius: 10px;
 }
 
 .map1 {
@@ -85,6 +90,8 @@ grid-column: 3/ span 5;
   grid-row: 15/ span 1;
 grid-column: 3/ span 5;
 background-color: white;
+border-radius: 10px;
+
 }
 
 .tourBox {
@@ -112,6 +119,7 @@ grid-template: repeat(5, 1fr) / repeat(1, 1fr);
 grid-gap: 10px;
 padding-top: 15px; 
 justify-items: center;
+border-radius: 10px;
     
         
 }
@@ -120,10 +128,12 @@ justify-items: center;
   width: 300px;
   background-color: white;
   border: 2px black solid;
+  border-radius: 10px;
  
 }
 #userPosition{
 background-color: white;
+border-radius: 10px;
 }
 
 form {
@@ -163,6 +173,7 @@ form {
   border: 1px black solid;
   background-color: white;
   height: 30px;
+  border-radius: 12px;
 }
 li {
     list-style-type: none;

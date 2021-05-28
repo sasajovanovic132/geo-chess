@@ -25,26 +25,26 @@ function loadClubDom(chessClubs, i) {
         document.getElementById('map').innerHTML = '';
         let ul = document.createElement('ul');
         let li1 = document.createElement('li');
-        li1.append(`Name:..........${chessClubs[i].getName()}`);
+        li1.append(`Name -  ${chessClubs[i].getName()}`);
         ul.appendChild(li1);
         let li2 = document.createElement('li');
-        li2.append(`Address:........${chessClubs[i].getAddress()}`);
+        li2.append(`Address - ${chessClubs[i].getAddress()}`);
         ul.appendChild(li2);
         let li3 = document.createElement('li');
-        li3.append(`Contact:.........${chessClubs[i].getContact()}`);
+        li3.append(`Contact - ${chessClubs[i].getContact()}`);
         ul.appendChild(li3);
         let li4 = document.createElement('li');
-        li4.append(`Description:......${chessClubs[i].getDesc()}`);
+        li4.append(`Description - ${chessClubs[i].getDesc()}`);
         ul.appendChild(li4);
         let li5 = document.createElement('li');
         let a = document.createElement('a');
         a.href = (` ${chessClubs[i].getWeb()}`);
         a.target = "_blank";
-        a.textContent = `Visit.........${chessClubs[i].getName()}`
+        a.textContent = `Visit ${chessClubs[i].getName()}`
         li5.append(a);
         ul.appendChild(li5);
         let li6 = document.createElement('li');
-        li6.append(` Distance:..........${chessClubs[i].getDistance()} km`);
+        li6.append(` Distance -  ${chessClubs[i].getDistance()} km`);
         ul.appendChild(li6);
         document.getElementById('map').appendChild(ul);
         document.getElementById('map1').innerHTML = '';
