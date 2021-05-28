@@ -1,11 +1,11 @@
 [
     {
-        "name": "2021 US Amateur Team WEST-National Champ.",
+        "name": "2021 US MATEUR TEAM WEST-NATIONAL CHAMP.",
         "address": " Mechanics Institute 57 Post Street, San Francisco, CA  94104",
         "lat": 37.788921,
         "lon": -122.402988,
         "startDate": "2021,01,30",
-        "endDate": "2021,10,31",
+        "endDate": "2021,01,31",
         "prize": 4000.00,
         "fee": 160.00,
         "web": "https://www.milibrary.org/chess/usatw"
@@ -22,7 +22,7 @@
         "web": "https://njscf.org/%ef%bb%bffeb-23-new-jersey-junior-high-school-championship/"
     },
     {
-        "name": "2021 US Amateur Team - South",
+        "name": "2021 US AMATEUR TEAM - SOUTH",
         "address": "305 Willow Pointe Drive, League City, TX 77573",
         "lat": 39.96531,
         "lon": -95.098629,
@@ -44,7 +44,7 @@
         "web": "http://www.chessweekend.com/2020/2021-u-s-amateur-team-north/"
     },
     {
-        "name": "2021 U.S. Class Championships ",
+        "name": "2021 U.S. CLASS CHAMPIONSHIPS ",
         "address": " 15747 John F. Kennedy Blvd Houston, TX 77032",
         "lat": 29.946234,
         "lon": -95.332192,
@@ -55,8 +55,8 @@
         "web": "https://new.uschess.org/national-events-calendar"
     },
     {
-        "name": "2021 U.S. Open ",
-        "address": " Cherry Hill, NJ 08002",
+        "name": "2021 U.S. OPEN ",
+        "address": " Cherry Hill,\r NJ 08002",
         "lat": 39.928745,
         "lon": -75.023350,
         "startDate": "2021,07,23",
@@ -66,7 +66,7 @@
         "web": "https://new.uschess.org/national-events-calendar"
     },
     {
-        "name": "2021 U.S. Junior Open Championship",
+        "name": "2021 U.S. JUNIO OPEN CHAMPIONSHIP",
         "address": " 601 W. McKinley Ave. Pomona, CA 91768",
         "lat": 34.079500,
         "lon": -117.762635,
@@ -77,7 +77,7 @@
         "web": "http://texasarmedforceschess.com/ents-calendar"
     },
     {
-        "name": "51st annual National Chess Congress",
+        "name": "51st annual NATIONAL CHESS CONGRESS",
         "address": " Philadelphia,PA",
         "lat": 40.002280,
         "lon": -75.118028,
@@ -121,7 +121,7 @@
         "web": "http://www.chesstour.com/po19.htm"
     },
     {
-        "name": "Cherry Hill Open",
+        "name": "CHERRY HILL OPEN",
         "address": "2349 Marlton Pike W Cherry Hill, NJ",
         "lat": 39.926227,
         "lon": -75.0557285,
@@ -132,7 +132,7 @@
         "web": "http://www.chesstour.com/po19.htm"
     },
     {
-        "name": "NJ Senior State Championship Official NJSCF",
+        "name": "NJ SENIOR STATE CHAMPIONSHIP",
         "address": "West Marlton Pike, Cherry Hill, NJ 08002",
         "lat": 39.9276233,
         "lon": -75.0897727,
@@ -143,8 +143,8 @@
         "web": "https://njscf.org/dec-28-29-2019-nj-senior-state-championship-official-njscf-tournament/"
     },
     {
-        "name": "Leon Shulman Liberty Cup 2021",
-        "address": "Crowne Plaza Philadelphia, 2349 Marlton Pike W, Cherry Hill, NJ",
+        "name": "LEON SHULMAN LIBERTY CUP 2021",
+        "address": "2349 Marlton Pike W, Cherry Hill, NJ",
         "lat": 39.9264435,
         "lon": -75.0562411,
         "startDate": "2021,05,30",
@@ -154,7 +154,7 @@
         "web": "https://incntr.jumbula.com/2019SouthJerseyChessClub/LeonShulmanLibertyCup2020"
     },
     {
-        "name": "Delaware State Open Chess Championship",
+        "name": "DELAWARE STATE OPEN ",
         "address": "Hilton, Christiana Hotel, 100 Continental Dr., Newark, DE",
         "lat": 39.6878896,
         "lon": -75.658925,
@@ -176,7 +176,7 @@
         "web": "http://chesstour.com/nysc19.htm"
     },
     {
-        "name": "52nd Virginia Open Chess Championship",
+        "name": "52nd VIRGINIA OPEN",
         "address": " Washington Dulles Airport Marriott Hotel, 45020 Aviation Dr., Dulles, VA 20166",
         "lat": 38.9593077,
         "lon": -77.4512843,

@@ -22,12 +22,19 @@ function loadDom(chessTournaments, i) {
     document.getElementById('map').appendChild(button);
     button.addEventListener('click', () => {
         let ul = document.createElement('ul');
+        let br = document.createElement('br');
         document.getElementById('map').innerHTML = '';
-        let li1 = document.createElement('li');
+
+        let li1 = document.createElement('h4');
         li1.append(chessTournaments[i].getName());
         ul.appendChild(li1);
+        ul.appendChild(br);
+        ul.appendChild(br);
+        ul.appendChild(br);
+        ul.appendChild(br);
+
         let li2 = document.createElement('li');
-        li2.append(`Address -  ${chessTournaments[i].getAddress()}`);
+        li2.append(chessTournaments[i].getAddress());
         ul.appendChild(li2);
         let li3 = document.createElement('li');
         li3.append(`Start Date -  ${chessTournaments[i].getStartDate()}`);
@@ -36,24 +43,25 @@ function loadDom(chessTournaments, i) {
         li4.append(`End Date -  ${chessTournaments[i].getEndDate()}`);
         ul.appendChild(li4);
         let li7 = document.createElement('li');
-        li7.append(` Prize -  $${chessTournaments[i].getPrize()} `);
+        li7.append(`Top prize -  $${chessTournaments[i].getPrize()} `);
         ul.appendChild(li7);
         let li8 = document.createElement('li');
-        li8.append(` Fee -  $${chessTournaments[i].getFee()} `);
+        li8.append(`Fee -  $${chessTournaments[i].getFee()} `);
         ul.appendChild(li8);
         let li6 = document.createElement('li');
-        li6.append(` Distance -  ${chessTournaments[i].getDistance()} km`);
+        li6.append(`Distance -  ${chessTournaments[i].getDistance()} km`);
         ul.appendChild(li6);
         let li9 = document.createElement('li');
-        li9.append(` Tournament starts in ${chessTournaments[i].getTimeDist()} days`);
+        li9.append(`Tournament starts in ${chessTournaments[i].getTimeDist()} days`);
         ul.appendChild(li9);
         let li5 = document.createElement('li');
         let a = document.createElement('a');
         a.href = (` ${chessTournaments[i].getWeb()}`);
         a.target = "_blank";
-        a.textContent = `Visit ${chessTournaments[i].getName()}`
+        a.textContent = 'visit';
         li5.append(a);
         ul.appendChild(li5);
+
         document.getElementById('map').appendChild(ul);
         document.getElementById('map1').innerHTML = '';
         //to set and display Chess Tournament Location on Google map

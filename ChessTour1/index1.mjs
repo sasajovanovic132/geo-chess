@@ -83,6 +83,8 @@ function showPosition(position) {
     let lat = position.coords.latitude;// getting users position latitude
     let lon = position.coords.longitude;// getting users position longitude 
     initMap(lat, lon);
+
+    //lefleat
     //map1.panTo([lat, lon]); // to reset the map based on users position
     //centerMarker.setLatLng([lat, lon]);
 
