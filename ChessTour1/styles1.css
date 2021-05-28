@@ -8,8 +8,12 @@ h1 {
     font-family: "Pattaya", sans-serif;
     
 }
-h4{
+h4 {
   text-align:center;
+}
+.middle{
+  text-align:center;
+
 }
 
 .grid {
