@@ -28,10 +28,6 @@ function loadDom(chessTournaments, i) {
         let li1 = document.createElement('h4');
         li1.append(chessTournaments[i].getName());
         ul.appendChild(li1);
-        ul.appendChild(br);
-        ul.appendChild(br);
-        ul.appendChild(br);
-        ul.appendChild(br);
 
         let li2 = document.createElement('li');
         li2.className = "middle";
