@@ -24,7 +24,7 @@ function loadDom(chessTournaments, i) {
         let ul = document.createElement('ul');
         document.getElementById('map').innerHTML = '';
         let li1 = document.createElement('li');
-        li1.append(`Name -  ${chessTournaments[i].getName()}`);
+        li1.append(chessTournaments[i].getName());
         ul.appendChild(li1);
         let li2 = document.createElement('li');
         li2.append(`Address -  ${chessTournaments[i].getAddress()}`);

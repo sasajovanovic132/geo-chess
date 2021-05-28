@@ -43,7 +43,7 @@ class ChessTournament {
         this.startDate = startDate;
     }
     getStartDate() {
-        let formatted_date = `${this.startDate.getFullYear()} -  ${(this.startDate.getMonth() + 1)}  -  ${this.startDate.getDate()} `;
+        let formatted_date = `${this.startDate.getFullYear()} - ${(this.startDate.getMonth() + 1)} - ${this.startDate.getDate()} `;
         return formatted_date;
     }
 

@@ -23,18 +23,28 @@ function loadClubDom(chessClubs, i) {
     button.addEventListener('click', () => {
 
         document.getElementById('map').innerHTML = '';
+        let br = document.createElement('br');
         let ul = document.createElement('ul');
         let li1 = document.createElement('li');
-        li1.append(`Name -  ${chessClubs[i].getName()}`);
+
+
+
+        li1.append(chessClubs[i].getName());
         ul.appendChild(li1);
+        ul.append(br);
+        ul.append(br);
         let li2 = document.createElement('li');
         li2.append(`Address - ${chessClubs[i].getAddress()}`);
         ul.appendChild(li2);
+        ul.append(br);
         let li3 = document.createElement('li');
         li3.append(`Contact - ${chessClubs[i].getContact()}`);
         ul.appendChild(li3);
+        ul.append(br);
         let li4 = document.createElement('li');
-        li4.append(`Description - ${chessClubs[i].getDesc()}`);
+        li4.append("Description: ");
+        li4.append(br);
+        li4.append(chessClubs[i].getDesc());
         ul.appendChild(li4);
         let li5 = document.createElement('li');
         let a = document.createElement('a');
