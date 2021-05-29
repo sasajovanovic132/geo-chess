@@ -1,12 +1,16 @@
 
 body{
   background-color: lightgray;
+  height: 150%;
+  
 }
 
 h1 {
     text-align:center;
+    align-content: center;
     font-family: "Pattaya", sans-serif;
-    
+    word-spacing: 60px;
+    color: #521818;
 }
 h4 {
   text-align:center;
