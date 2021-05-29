@@ -18,7 +18,9 @@ function chessTourSortByDate(chessTournaments) {
     showList.addEventListener('click', () => {
         document.getElementById('map').innerHTML = '';
         let sortedByDate = chessTournaments.sort((a, b) => (a.getTimeDist() > b.getTimeDist()) ? 1 : -1);
-        chessTournaments = sortedByDate;
+        chessTournaments = sortedByDate.filter(tour => {
+            return Number(tour.getTimeDist() > 0);
+        })
         uploadDom(chessTournaments);
     })
 }

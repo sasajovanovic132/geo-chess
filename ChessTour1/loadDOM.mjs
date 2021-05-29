@@ -42,8 +42,13 @@ function loadDom(chessTournaments, i) {
         ul.appendChild(li6);
         let li9 = document.createElement('li');
         li9.className = "middle";
-        li9.append(`Tournament starts in ${chessTournaments[i].getTimeDist()} days`);
-        ul.appendChild(li9);
+        if (chessTournaments[i].getTimeDist() > 0) {
+            li9.append(`Tournament starts in ${chessTournaments[i].getTimeDist()} days`);
+            ul.appendChild(li9);
+        } else {
+            li9.append('This tournament has expired');
+            ul.appendChild(li9);
+        }
         let li5 = document.createElement('li');
         li5.className = "middle";
         let a = document.createElement('a');

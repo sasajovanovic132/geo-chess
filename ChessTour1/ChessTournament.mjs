@@ -110,7 +110,7 @@ class ChessTournament {
     setTimeDist() {
         let today = new Date();
         let tourDate = new Date(this.startDate);
-        const diffTime = Math.abs(tourDate - today);
+        const diffTime = tourDate - today;
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
         this.timeDist = diffDays;
     }

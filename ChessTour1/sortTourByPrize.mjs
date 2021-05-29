@@ -9,6 +9,9 @@ function chessTourSortByPrize(chessTournaments) {
         document.getElementById('map').innerHTML = '';
         let sortedByPrize = chessTournaments.sort((a, b) => (Number(a.getPrize()) < Number(b.getPrize())) ? 1 : -1);
         chessTournaments = sortedByPrize;
+        chessTournaments = sortedByPrize.filter(tour => {
+            return Number(tour.getTimeDist() > 0);
+        })
         uploadDom(chessTournaments);
     })
 }

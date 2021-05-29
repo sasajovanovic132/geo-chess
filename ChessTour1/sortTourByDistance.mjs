@@ -11,7 +11,9 @@ function chessTourSortByDistance(chessTournaments) {
     showList.addEventListener('click', () => {
         document.getElementById('map').innerHTML = '';
         let sortedByDistance = chessTournaments.sort((a, b) => (Number(a.getDistance()) > Number(b.getDistance())) ? 1 : -1);
-        chessTournaments = sortedByDistance;
+        chessTournaments = sortedByDistance.filter(tour => {
+            return Number(tour.getTimeDist() > 0);
+        })
         uploadDom(chessTournaments);
     })
 }
