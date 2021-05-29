@@ -38,7 +38,7 @@ function loadDom(chessTournaments, i) {
         ul.appendChild(li8);
         let li6 = document.createElement('li');
         li6.className = "middle";
-        li6.append(`Distance -  ${chessTournaments[i].getDistance()} km`);
+        li6.append(`Distance -  ${chessTournaments[i].getDistance()} mi`);
         ul.appendChild(li6);
         let li9 = document.createElement('li');
         li9.className = "middle";
