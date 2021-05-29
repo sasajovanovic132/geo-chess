@@ -16,13 +16,13 @@ function initMap(lat, lon) {
 
 // this function loads Tournamets info on the page
 function loadDom(chessTournaments, i) {
+    document.getElementById('map').style.backgroundImage = "url('')"
     let button = document.createElement('button');
     button.className = 'buttonTournaments';
     button.innerHTML = chessTournaments[i].getName();
     document.getElementById('map').appendChild(button);
     button.addEventListener('click', () => {
         let ul = document.createElement('ul');
-        let br = document.createElement('br');
         document.getElementById('map').innerHTML = '';
 
         let li1 = document.createElement('h4');

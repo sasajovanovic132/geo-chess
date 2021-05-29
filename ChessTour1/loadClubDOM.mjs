@@ -16,9 +16,13 @@ function initMap(lat, lon) {
 
 // this function loads Tournamets info on the page
 function loadClubDom(chessClubs, i) {
+
+    document.getElementById('map').style.backgroundImage = "url('') ";
+
     let button = document.createElement('button');
     button.className = 'buttonClubs';
     button.innerHTML = chessClubs[i].getName();
+
     document.getElementById('map').appendChild(button);
     button.addEventListener('click', () => {
 
