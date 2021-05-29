@@ -30,7 +30,7 @@ let centerMarker = L.marker([51.5, -0.09]);*/
 
 function main() {
     document.addEventListener('DOMContentLoaded', () => {
-
+        navigator.geolocation.getCurrentPosition(showPosition, noGeo);
         let userPos = document.getElementById('userPosition'); //  'Show My Position' button on the page
         userPos.addEventListener('click', showMap);
 
@@ -41,7 +41,7 @@ function main() {
 
         let addTournamentButton = document.getElementById('addTour'); // 'Add Club' button on the page
         addTournamentButton.addEventListener('click', addTournaments);
-        navigator.geolocation.getCurrentPosition(showPosition, noGeo);
+
 
     });
 }//end main
@@ -49,7 +49,6 @@ function main() {
 
 // this function is used to set and display users location on the map
 function showMap() {
-    let container = document.getElementById('map1');
 
     //this part refers to lefleat map 
     /*
