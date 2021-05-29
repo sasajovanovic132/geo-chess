@@ -1,11 +1,12 @@
 
 body{
-  background-color: lightgray;
+  background-color: black;
 }
 
 h1 {
     text-align:center;
     font-family: "Pattaya", sans-serif;
+    color:white;
     
 }
 h4 {
