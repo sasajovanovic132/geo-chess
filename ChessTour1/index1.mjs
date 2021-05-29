@@ -24,7 +24,7 @@ import {
     fetchTournaments
 } from './fetchTournaments.mjs';
 
-
+// this part refers to lefleat that was taken off
 /*let map1; // to hold map of users location
 let centerMarker = L.marker([51.5, -0.09]);*/
 
@@ -67,6 +67,7 @@ function showMap() {
     navigator.geolocation.getCurrentPosition(showPosition, noGeo);
 }
 function initMap(lat, lon) {
+
     const myLatLng = { lat: lat, lng: lon };
     const map = new google.maps.Map(document.getElementById("map1"), {
         zoom: 12,
@@ -75,7 +76,7 @@ function initMap(lat, lon) {
     new google.maps.Marker({
         position: myLatLng,
         map,
-        title: "Chess Club!",
+        title: "Geo-Chess",
     });
 }
 
@@ -92,6 +93,6 @@ function noGeo(e) {
     console.error(e);
 }
 
-
+export { initMap };
 
 main();

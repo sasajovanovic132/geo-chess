@@ -89,13 +89,13 @@ class ChessTournament {
         lon1 *= Math.PI / 180;
         lon2 *= Math.PI / 180;
         let h = Math.pow(Math.sin((lat2 - lat1) / 2), 2) + (Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin((lon2 - lon1) / 2), 2));
-        return 2 * r * Math.asin(Math.sqrt(h));
+        return 2 * r * Math.asin(Math.sqrt(h)) * 0.62137119;
     }
 
     setDistance() {
         navigator.geolocation.getCurrentPosition((position) => {
-            let lat = position.coords.latitude;//users latitude
-            let lon = position.coords.longitude;//users longitude
+            let lat = position.coords.latitude;//user latitude
+            let lon = position.coords.longitude;//user longitude
             this.dist = Number(this.distance(lat, lon, this.getLat(), this.getLon()).toFixed(2));
         });
 

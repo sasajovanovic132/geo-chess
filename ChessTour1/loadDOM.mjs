@@ -1,20 +1,7 @@
 
+import { initMap } from './index1.mjs';
 
-// this function  is used to set google map
-function initMap(lat, lon) {
-    const myLatLng = { lat: lat, lng: lon };
-    const map = new google.maps.Map(document.getElementById("map1"), {
-        zoom: 12,
-        center: myLatLng,
-    });
-    new google.maps.Marker({
-        position: myLatLng,
-        map,
-        title: "Chess Club!",
-    });
-}
-
-// this function loads Tournamets info on the page
+// this function loads Tournamets info to the right pannel
 function loadDom(chessTournaments, i) {
     document.getElementById('map').style.backgroundImage = "url('')"
     let button = document.createElement('button');

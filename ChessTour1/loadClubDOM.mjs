@@ -1,7 +1,7 @@
 
-
+import { initMap } from './index1.mjs';
 // this function  is used to set google map
-function initMap(lat, lon) {
+/*function initMap(lat, lon) {
     const myLatLng = { lat: lat, lng: lon };
     const map = new google.maps.Map(document.getElementById("map1"), {
         zoom: 12,
@@ -12,7 +12,7 @@ function initMap(lat, lon) {
         map,
         title: "Chess Club!",
     });
-}
+}*/
 
 // this function loads Tournamets info on the page
 function loadClubDom(chessClubs, i) {
@@ -54,7 +54,7 @@ function loadClubDom(chessClubs, i) {
         li5.className = "middle";
         let li6 = document.createElement('li');
         li6.className = "middle";
-        li6.append(` Distance -  ${chessClubs[i].getDistance()} km`);
+        li6.append(` Distance -  ${chessClubs[i].getDistance()} mi`);
         ul.appendChild(li6);
         let a = document.createElement('a');
         a.href = (` ${chessClubs[i].getWeb()}`);
