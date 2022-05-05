@@ -1,6 +1,37 @@
 
   [
     {
+        "name": "2021 US MATEUR TEAM WEST-NATIONAL CHAMP.",
+        "address": " Mechanics Institute 57 Post Street, San Francisco, CA  94104",
+        "lat": 37.788921,
+        "lon": -122.402988,
+        "startDate": "2021,01,30",
+        "endDate": "2021,01,31",
+        "prize": 4000.00,
+        "fee": 160.00,
+        "web": "https://www.milibrary.org/chess/usatw"
+    },
+    {
+        "name": "WORLD AMATEUR TEAM & U.S. TEAM EAST. ",
+        "address": "220 Clark Street, Westfield, NJ 07090 ",
+        "lat": 40.650556,
+        "lon": -74.3546021,
+        "startDate": "2021,02,13",
+        "endDate": "2021,02,13",
+        "prize": 4000.00,
+        "fee": 160.00,
+        "web": "https://njscf.org/%ef%bb%bffeb-23-new-jersey-junior-high-school-championship/"
+    },
+    {
+        "name": "2021 US AMATEUR TEAM - SOUTH",
+        "address": "305 Willow Pointe Drive, League City, TX 77573",
+        "lat": 39.96531,
+        "lon": -95.098629,
+        "startDate": "2021,02,27",
+        "endDate": "2021,02,28",
+        "prize": 4000.00,
+        "fee": 160.00,
+        "web": "https://www.kingregistration.com/event/usats2021"
         "name": "50th annual World Open",
         "address": "Philadelphia, Pennsylvania",
         "lat": 40.0026767,
@@ -34,6 +65,12 @@
         "web": "https://new.uschess.org/16th-annual-philadelphia-open"
     },
     {
+        "name": "2021 U.S. AMATEUR TEAM NORTH",
+        "address": " 21694 Doud Ct., Frankfort, IL 60423",
+        "lat": 41.49456862,
+        "lon": -87.864572,
+        "startDate": "2021,02,20",
+        "endDate": "2021,02,21",
         "name": "23rd annual Pittsburgh Open",
         "address": " Doubletree Green Tree, 500 Mansfield Ave, Pittsburgh,PA 15205",
         "lat": 40.4187141,
@@ -63,10 +100,43 @@
         "startDate": "2022,08,13",
         "endDate": "2022,08,17",
         "prize": 4000.00,
+        "fee": 160.00,
+        "web": "http://www.chessweekend.com/2020/2021-u-s-amateur-team-north/"
+    },
+    {
+        "name": "2021 U.S. CLASS CHAMPIONSHIPS ",
+        "address": " 15747 John F. Kennedy Blvd Houston, TX 77032",
+        "lat": 29.946234,
+        "lon": -95.332192,
+        "startDate": "2021,07,23",
+        "endDate": "2021,07,25",
+        "prize": 1700.00,
+        "fee": 80.00,
+        "web": "https://new.uschess.org/national-events-calendar"
+    },
+    {
+        "name": "2021 U.S. OPEN ",
+        "address": " Cherry Hill,\r NJ 08002",
+        "lat": 39.928745,
+        "lon": -75.023350,
+        "startDate": "2022,07,23",
+        "endDate": "2022,07,25",
+        "prize": 6000.00,
+        "fee": 200.00,
+        "web": "https://new.uschess.org/national-events-calendar"
         "fee": 274.00,
         "web": "https://new.uschess.org/9th-annual-washington-international"
     },
     {
+        "name": "2021 U.S. JUNIO OPEN CHAMPIONSHIP",
+        "address": " 601 W. McKinley Ave. Pomona, CA 91768",
+        "lat": 34.079500,
+        "lon": -117.762635,
+        "startDate": "2022,06,04",
+        "endDate": "2022,06,06",
+        "prize": 800.00,
+        "fee": 40.00,
+        "web": "http://texasarmedforceschess.com/ents-calendar"
         "name": "144th annual New York State Championship",
         "address": " 189 Wolf Road, Albany 12205",
         "lat": 42.7206446,
@@ -76,38 +146,6 @@
         "prize": 2000.00,
         "fee": 118.00,
         "web": "https://new.uschess.org/144th-annual-new-york-state-championship"
-    },
-    {
-        "name": "54th annual Atlantic Open",
-        "address": "Hyatt Regency Crystal City at Reagan National Airport, 2799 Richmond Highway, Arlington VA 22202",
-        "lat": 38.8488663,
-        "lon": -77.0538678,
-        "startDate": "2022,08,26",
-        "endDate": "2022,08,28",
-        "prize": 3000.00,
-        "fee": 40.00,
-        "web": "https://new.uschess.org/54th-annual-atlantic-open"
-    },
-    {
-        "name": "2022 Charlottesville Open Chess Championships",
-        "address": " Comfort Inn Monticello in Charlottesville, VA 22911",
-        "lat": 38.0195722,
-        "lon": -78.4293697,
-        "startDate": "2022,07,15",
-        "endDate": "2022,07,17",
-        "prize": 2000.00,
-        "fee": 40.00,
-        "web": "https://new.uschess.org/2022-charlottesville-open-chess-championships"
-    },
-    {
-        "name": "Cleveland Open",
-        "address": "Crowne Plaza Cleveland Airport, 7230 Engle Road, Middleburg Heights OH 44130",
-        "lat": 41.3701049,
-        "lon": ,-81.8277522,
-        "startDate": "2022,06,12",
-        "endDate": "2022,06,14",
-        "prize": 650.00,
-        "fee": 65.00,
-        "web": "https://new.uschess.org/cleveland-open-0"
     }
-]
+
+] 
