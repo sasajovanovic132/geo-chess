@@ -1,37 +1,5 @@
-
-  [
+[
     {
-        "name": "2021 US MATEUR TEAM WEST-NATIONAL CHAMP.",
-        "address": " Mechanics Institute 57 Post Street, San Francisco, CA  94104",
-        "lat": 37.788921,
-        "lon": -122.402988,
-        "startDate": "2021,01,30",
-        "endDate": "2021,01,31",
-        "prize": 4000.00,
-        "fee": 160.00,
-        "web": "https://www.milibrary.org/chess/usatw"
-    },
-    {
-        "name": "WORLD AMATEUR TEAM & U.S. TEAM EAST. ",
-        "address": "220 Clark Street, Westfield, NJ 07090 ",
-        "lat": 40.650556,
-        "lon": -74.3546021,
-        "startDate": "2021,02,13",
-        "endDate": "2021,02,13",
-        "prize": 4000.00,
-        "fee": 160.00,
-        "web": "https://njscf.org/%ef%bb%bffeb-23-new-jersey-junior-high-school-championship/"
-    },
-    {
-        "name": "2021 US AMATEUR TEAM - SOUTH",
-        "address": "305 Willow Pointe Drive, League City, TX 77573",
-        "lat": 39.96531,
-        "lon": -95.098629,
-        "startDate": "2021,02,27",
-        "endDate": "2021,02,28",
-        "prize": 4000.00,
-        "fee": 160.00,
-        "web": "https://www.kingregistration.com/event/usats2021"
         "name": "50th annual World Open",
         "address": "Philadelphia, Pennsylvania",
         "lat": 40.0026767,
@@ -65,12 +33,6 @@
         "web": "https://new.uschess.org/16th-annual-philadelphia-open"
     },
     {
-        "name": "2021 U.S. AMATEUR TEAM NORTH",
-        "address": " 21694 Doud Ct., Frankfort, IL 60423",
-        "lat": 41.49456862,
-        "lon": -87.864572,
-        "startDate": "2021,02,20",
-        "endDate": "2021,02,21",
         "name": "23rd annual Pittsburgh Open",
         "address": " Doubletree Green Tree, 500 Mansfield Ave, Pittsburgh,PA 15205",
         "lat": 40.4187141,
@@ -100,43 +62,10 @@
         "startDate": "2022,08,13",
         "endDate": "2022,08,17",
         "prize": 4000.00,
-        "fee": 160.00,
-        "web": "http://www.chessweekend.com/2020/2021-u-s-amateur-team-north/"
-    },
-    {
-        "name": "2021 U.S. CLASS CHAMPIONSHIPS ",
-        "address": " 15747 John F. Kennedy Blvd Houston, TX 77032",
-        "lat": 29.946234,
-        "lon": -95.332192,
-        "startDate": "2021,07,23",
-        "endDate": "2021,07,25",
-        "prize": 1700.00,
-        "fee": 80.00,
-        "web": "https://new.uschess.org/national-events-calendar"
-    },
-    {
-        "name": "2021 U.S. OPEN ",
-        "address": " Cherry Hill,\r NJ 08002",
-        "lat": 39.928745,
-        "lon": -75.023350,
-        "startDate": "2022,07,23",
-        "endDate": "2022,07,25",
-        "prize": 6000.00,
-        "fee": 200.00,
-        "web": "https://new.uschess.org/national-events-calendar"
         "fee": 274.00,
         "web": "https://new.uschess.org/9th-annual-washington-international"
     },
     {
-        "name": "2021 U.S. JUNIO OPEN CHAMPIONSHIP",
-        "address": " 601 W. McKinley Ave. Pomona, CA 91768",
-        "lat": 34.079500,
-        "lon": -117.762635,
-        "startDate": "2022,06,04",
-        "endDate": "2022,06,06",
-        "prize": 800.00,
-        "fee": 40.00,
-        "web": "http://texasarmedforceschess.com/ents-calendar"
         "name": "144th annual New York State Championship",
         "address": " 189 Wolf Road, Albany 12205",
         "lat": 42.7206446,
@@ -146,6 +75,115 @@
         "prize": 2000.00,
         "fee": 118.00,
         "web": "https://new.uschess.org/144th-annual-new-york-state-championship"
+    },
+    {
+        "name": "51st annual NATIONAL CHESS CONGRESS",
+        "address": " Philadelphia,PA",
+        "lat": 40.002280,
+        "lon": -75.118028,
+        "startDate": "2021,11,27",
+        "endDate": "2021,11,29",
+        "prize": 2000.00,
+        "fee": 99.00,
+        "web": "https://new.uschess.org/national-events-calendar"
+    },
+    {
+        "name": "52nd annual LIBERTY BELL OPEN",
+        "address": "1800 Market St, Philadelphia PA 19103",
+        "lat": 39.952754,
+        "lon": -75.170240,
+        "startDate": "2021,01,17",
+        "endDate": "2021,01,20",
+        "prize": 1200.00,
+        "fee": 60.00,
+        "web": "http://www.chesstour.com/lbo20.htm"
+    },
+    {
+        "name": "50th annual WORLD OPEN",
+        "address": "1201 Market St, Philadelphia PA 19107",
+        "lat": 39.9526549,
+        "lon": -75.1628375,
+        "startDate": "2021,07,03",
+        "endDate": "2021,07,07",
+        "prize": 20000.00,
+        "fee": 308.00,
+        "web": "http://www.chesstour.com/wo19.htm"
+    },
+    {
+        "name": "PHILADELPHIA OPEN",
+        "address": " Philadelphia Marriott Downtown ",
+        "lat": 39.9526549,
+        "lon": -75.1628375,
+        "startDate": "2021,06,28",
+        "endDate": "2021,06,30",
+        "prize": 1600.00,
+        "fee": 118.00,
+        "web": "http://www.chesstour.com/po19.htm"
+    },
+    {
+        "name": "CHERRY HILL OPEN",
+        "address": "2349 Marlton Pike W Cherry Hill, NJ",
+        "lat": 39.926227,
+        "lon": -75.0557285,
+        "startDate": "2021,07,13",
+        "endDate": "2021,07,14",
+        "prize": 800.00,
+        "fee": 99.00,
+        "web": "http://www.chesstour.com/po19.htm"
+    },
+    {
+        "name": "NJ SENIOR STATE CHAMPIONSHIP",
+        "address": "West Marlton Pike, Cherry Hill, NJ 08002",
+        "lat": 39.9276233,
+        "lon": -75.0897727,
+        "startDate": "2021,12,28",
+        "endDate": "2021,12,29",
+        "prize": 400.00,
+        "fee": 75.00,
+        "web": "https://njscf.org/dec-28-29-2019-nj-senior-state-championship-official-njscf-tournament/"
+    },
+    {
+        "name": "LEON SHULMAN LIBERTY CUP 2021",
+        "address": "2349 Marlton Pike W, Cherry Hill, NJ",
+        "lat": 39.9264435,
+        "lon": -75.0562411,
+        "startDate": "2021,05,30",
+        "endDate": "2021,05,31",
+        "prize": 400.00,
+        "fee": 75.00,
+        "web": "https://incntr.jumbula.com/2019SouthJerseyChessClub/LeonShulmanLibertyCup2020"
+    },
+    {
+        "name": "DELAWARE STATE OPEN ",
+        "address": "Hilton, Christiana Hotel, 100 Continental Dr., Newark, DE",
+        "lat": 39.6878896,
+        "lon": -75.658925,
+        "startDate": "2021,03,07",
+        "endDate": "2021,03,08",
+        "prize": 600.00,
+        "fee": 70.00,
+        "web": "https://incntr.jumbula.com/2019SouthJerseyChessClub/LeonShulmanLibertyCup2020"
+    },
+    {
+        "name": "NEW YORK STATE CHAMPIONSHIP",
+        "address": "Albany Marriott, 189 Wolf Road, Albany 12205",
+        "lat": 42.720667,
+        "lon": -73.8020517,
+        "startDate": "2021,08,30",
+        "endDate": "2021,09,02",
+        "prize": 2000.00,
+        "fee": 108.00,
+        "web": "http://chesstour.com/nysc19.htm"
+    },
+    {
+        "name": "52nd VIRGINIA OPEN",
+        "address": " Washington Dulles Airport Marriott Hotel, 45020 Aviation Dr., Dulles, VA 20166",
+        "lat": 38.9593077,
+        "lon": -77.4512843,
+        "startDate": "2021,03,22",
+        "endDate": "2021,09,24",
+        "prize": 2000.00,
+        "fee": 85.00,
+        "web": "http://vachess.org/tournaments/vaopen/2019/2019_TLA.htm"
     }
-
-] 
+]
