@@ -77,15 +77,15 @@
         "web": "https://new.uschess.org/144th-annual-new-york-state-championship"
     },
     {
-        "name": "51st annual NATIONAL CHESS CONGRESS",
-        "address": " Philadelphia,PA",
-        "lat": 40.002280,
-        "lon": -75.118028,
-        "startDate": "2021,11,27",
-        "endDate": "2021,11,29",
-        "prize": 2000.00,
-        "fee": 99.00,
-        "web": "https://new.uschess.org/national-events-calendar"
+        "name": "54th annual Atlantic Open",
+        "address": "Hyatt Regency Crystal City at Reagan National Airport, 2799 Richmond Highway, Arlington VA 22202",
+        "lat": 38.8488663,
+        "lon": -77.0538678,
+        "startDate": "2022,08,26",
+        "endDate": "2022,08,28",
+        "prize": 3000.00,
+        "fee": 40.00,
+        "web": "https://new.uschess.org/54th-annual-atlantic-open"
     },
     {
         "name": "52nd annual LIBERTY BELL OPEN",
