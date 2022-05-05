@@ -77,37 +77,37 @@
         "web": "https://new.uschess.org/144th-annual-new-york-state-championship"
     },
     {
-        "name": "51st annual NATIONAL CHESS CONGRESS",
-        "address": " Philadelphia,PA",
-        "lat": 40.002280,
-        "lon": -75.118028,
-        "startDate": "2021,11,27",
-        "endDate": "2021,11,29",
+        "name": "54th annual Atlantic Open",
+        "address": "Hyatt Regency Crystal City at Reagan National Airport, 2799 Richmond Highway, Arlington VA 22202",
+        "lat": 38.8488663,
+        "lon": -77.0538678,
+        "startDate": "2022,08,26",
+        "endDate": "2022,08,28",
+        "prize": 3000.00,
+        "fee": 40.00,
+        "web": "https://new.uschess.org/54th-annual-atlantic-open"
+    },
+    {
+        "name": "2022 Charlottesville Open Chess Championships",
+        "address": " Comfort Inn Monticello in Charlottesville, VA 22911",
+        "lat": 38.0195722,
+        "lon": -78.4293697,
+        "startDate": "2022,07,15",
+        "endDate": "2022,07,17",
         "prize": 2000.00,
-        "fee": 99.00,
-        "web": "https://new.uschess.org/national-events-calendar"
+        "fee": 40.00,
+        "web": "https://new.uschess.org/2022-charlottesville-open-chess-championships"
     },
     {
-        "name": "52nd annual LIBERTY BELL OPEN",
-        "address": "1800 Market St, Philadelphia PA 19103",
-        "lat": 39.952754,
-        "lon": -75.170240,
-        "startDate": "2021,01,17",
-        "endDate": "2021,01,20",
-        "prize": 1200.00,
-        "fee": 60.00,
-        "web": "http://www.chesstour.com/lbo20.htm"
-    },
-    {
-        "name": "50th annual WORLD OPEN",
-        "address": "1201 Market St, Philadelphia PA 19107",
-        "lat": 39.9526549,
-        "lon": -75.1628375,
-        "startDate": "2021,07,03",
-        "endDate": "2021,07,07",
-        "prize": 20000.00,
-        "fee": 308.00,
-        "web": "http://www.chesstour.com/wo19.htm"
+        "name": "Cleveland Open",
+        "address": "Crowne Plaza Cleveland Airport, 7230 Engle Road, Middleburg Heights OH 44130",
+        "lat": 41.3701049,
+        "lon": ,-81.8277522,
+        "startDate": "2022,06,12",
+        "endDate": "2022,06,14",
+        "prize": 650.00,
+        "fee": 65.00,
+        "web": "https://new.uschess.org/cleveland-open-0"
     },
     {
         "name": "PHILADELPHIA OPEN",
